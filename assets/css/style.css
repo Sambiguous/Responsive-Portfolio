@@ -238,10 +238,6 @@ textarea {
 		display: inline;
 	}
 
-	/*(#main p {
-		width: 90%;
-	}*/
-
 	#pic {
 		height: 150px;
 		width: 150px;
@@ -250,9 +246,10 @@ textarea {
 	}
 
 	#connect {
+		width: inherit;
 		display: block;
 		float: none;
-		margin-left: 0px;
+		margin: 0px;
 	}
 
 	#name_tag_container {
@@ -262,6 +259,10 @@ textarea {
 
 	#name_nav p {
 		padding: 0px;
+	}
+
+	#links {
+		display: inline-block;
 	}
 
 }
