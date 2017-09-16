@@ -67,8 +67,6 @@ textarea {
 	display: inline-block;
 	height: 210px;
 	width: 280px;
-	margin:;
-	padding:;
 }
 
 .pane img {
@@ -188,7 +186,7 @@ textarea {
 
 @media only screen and  (max-width: 980px) {
 	#content {
-		padding: 0px 40px;
+		padding: 0px 40px 75px 40px;
 	}
 
 	#name_nav {
@@ -215,4 +213,16 @@ textarea {
 		width: calc(100% - 352px)
 	}
 
+	.panes {
+		text-align: center;
+	}
+
+	.pane {
+		display: block;
+		margin: 10px auto;
+	}
+
+	#right {
+		float: none;
+	}
 }
