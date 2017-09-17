@@ -96,10 +96,10 @@ textarea {
 }
 
 #name_nav {
-	width: 100%;
 	max-width: 960px;
 	height: 100%;
 	margin: 0 auto;
+	padding: 0px;
 }
 
 #name_tag_container {
@@ -184,7 +184,7 @@ textarea {
 }
 
 
-@media only screen and  (max-width: 980px) {
+@media only screen and (max-width: 980px) {
 	#content {
 		padding: 0px 40px 75px 40px;
 	}
@@ -195,7 +195,7 @@ textarea {
 
 	#name_nav p {
 		position: relative;
-		right: 80px
+		right: 40px
 	}
 
 	#pic-wrapper {
@@ -227,7 +227,7 @@ textarea {
 	}
 }
 
-@media only screen and  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	#main {
 		width:inherit;
 		display: block;
@@ -263,6 +263,53 @@ textarea {
 
 	#links {
 		display: inline-block;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+	#content {
+		padding-bottom: 95px;
+	}
+
+	#name_nav {
+		text-align: center;
+		padding: 0px 40px;
+	}
+
+	#name_nav p {
+		right: 0px;
+		float: none;
+		display: block;
+		line-height: 25px;
+		margin: 0px auto;
+	}
+
+	#name_tag_container {
+		height: 50px;
+		width: inherit;
+		margin: 0px auto;
+		text-align: center;
+		display: block;
+
+	}
+	#name_tag {
+		line-height: 50px;
+	}
+
+	#pic-wrapper {
+		width: 200px;
+		display: block;
+		margin: 0px auto;
+	}
+
+	#pic {
+		display: block;
+		width: 100%
+	}
+
+	.pane {
+		margin: 10px auto;
 	}
 
 }
