@@ -268,11 +268,16 @@ textarea {
 }
 
 @media only screen and (max-width: 640px) {
+	.panel {
+		min-width: 300px;
+	}
+	
 	#content {
 		padding-bottom: 95px;
 	}
 
 	#name_nav {
+		min-width: 340px;
 		text-align: center;
 		padding: 0px 40px;
 	}
@@ -298,12 +303,13 @@ textarea {
 	}
 
 	#pic-wrapper {
-		width: 200px;
 		display: block;
+		width: 200px;
 		margin: 0px auto;
 	}
 
 	#pic {
+		float: none;
 		display: block;
 		width: 100%
 	}
